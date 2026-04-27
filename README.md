@@ -4,6 +4,8 @@ Typed string constants for all [Wwise Authoring API (WAAPI)](https://www.audioki
 
 Eliminates hard-coded URI strings in your WAAPI automation scripts and enables IDE auto-completion and static type checking.
 
+> **Wwise version:** URI constants are generated from **Wwise 2025.1.7**.
+
 ## Installation
 
 ```bash
