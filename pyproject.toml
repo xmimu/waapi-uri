@@ -1,13 +1,33 @@
 [project]
 name = "waapi-uri"
 version = "0.1.0"
-description = "Add your description here"
+description = "Typed string constants for all Wwise Authoring API (WAAPI) function URIs"
 readme = "README.md"
+license = { text = "MIT" }
 authors = [
     { name = "xmimu", email = "1101588023@qq.com" }
 ]
-requires-python = ">=3.12"
+keywords = ["wwise", "waapi", "audio", "uri", "audiokinetic"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+requires-python = ">=3.10"
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/xmimu/waapi-uri"
+Repository = "https://github.com/xmimu/waapi-uri"
+Issues = "https://github.com/xmimu/waapi-uri/issues"
 
 [build-system]
 requires = ["uv_build>=0.9.2,<0.10.0"]
