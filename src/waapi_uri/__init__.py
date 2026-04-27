@@ -1,3 +1,4 @@
 from . import uri
+from . import topic
 
-__all__ = ["uri"]
+__all__ = ["uri", "topic"]
