@@ -1,3 +1,5 @@
+# Generated from Wwise WAAPI schemas. Do not edit manually.
+
 ak_wwise_core_audio_imported: str = "ak.wwise.core.audio.imported"
 ak_wwise_core_log_itemAdded: str = "ak.wwise.core.log.itemAdded"
 ak_wwise_core_object_attenuationCurveChanged: str = "ak.wwise.core.object.attenuationCurveChanged"
